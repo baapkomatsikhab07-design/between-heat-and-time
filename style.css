@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+  background: #0f0f0f;
+  color: #e5e5e5;
+  font-family: Georgia, serif;
+  line-height: 1.7;
+}
+
+.hero {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+}
+
+.hero p {
+  color: #888;
+}
+
+.archive {
+  max-width: 700px;
+  margin: auto;
+  padding: 4rem 1.5rem;
+}
+
+article {
+  margin-bottom: 5rem;
+}
+
+article img {
+  width: 100%;
+  border-radius: 16px;
+  margin-bottom: 1.5rem;
+  filter: grayscale(10%) contrast(95%);
+}
+
+article h2 {
+  margin: 0;
+  font-size: 1.8rem;
+}
+
+article span {
+  color: #777;
+  font-size: 0.9rem;
+}
+
+footer {
+  text-align: center;
+  padding: 2rem;
+  color: #555;
+  font-size: 0.8rem;
+}
